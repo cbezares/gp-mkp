@@ -1,0 +1,123 @@
+Number of Subpopulations: i1|
+Subpopulation Number: i0|
+Number of Individuals: i20|
+Individual Number: i0|
+Evaluated: F
+Fitness: f1014102404|0.014768962|i3|
+Tree 0:
+ (Progn2 (Do_While (Or Add_Max_Senju_Toyoda Add_Min_Weight) (If_Then (And Add_Min_Weight Add_Max_Scaled) (Do_While (And Add_Min_Weight Add_Max_Freville_Plateau) (If_Then_Else Del_Min_Normalized Del_Max_Weight Del_Min_Profit)))) Replace_Max_Weight)
+
+Individual Number: i1|
+Evaluated: F
+Fitness: f1014988852|0.015594531|i2|
+Tree 0:
+ (Progn2 (Do_While Add_Min_Weight (If_Then (And Add_Max_Senju_Toyoda (Equal (And Add_Max_Scaled (Equal (Equal Add_Min_Weight Del_Max_Weight) Del_Max_Weight)) (Not Del_Min_Scaled))) (Do_While Add_Max_Senju_Toyoda Add_Max_Profit))) Replace_Max_Weight)
+
+Individual Number: i2|
+Evaluated: F
+Fitness: f1015226555|0.016006818|i3|
+Tree 0:
+ (Progn2 (Do_While (Equal Add_Max_Profit (And Add_Max_Scaled Add_Max_Scaled)) (If_Then Add_Min_Weight (Do_While (And Add_Max_Freville_Plateau Add_Max_Scaled) (If_Then_Else (And Add_Max_Freville_Plateau Add_Max_Scaled) Add_Max_Generalized Del_Min_Normalized)))) Replace_Max_Weight)
+
+Individual Number: i3|
+Evaluated: F
+Fitness: f1015253564|0.016057126|i3|
+Tree 0:
+ (Progn2 (Do_While (Or (Or (And (Equal Add_Max_Normalized Add_Min_Weight) (And Del_Min_Scaled Add_Max_Freville_Plateau)) Add_Min_Weight) (Not Add_Max_Generalized)) (If_Then (Equal Add_Max_Generalized Add_Max_Scaled) Add_Max_Scaled)) Replace_Max_Weight)
+
+Individual Number: i4|
+Evaluated: F
+Fitness: f1015548745|0.016606944|i3|
+Tree 0:
+ (Progn2 (Do_While (Equal (And Add_Max_Scaled (And Add_Max_Freville_Plateau Add_Max_Scaled)) (And Add_Max_Generalized Add_Max_Freville_Plateau)) (If_Then (Not (Or Add_Max_Normalized Add_Max_Generalized)) (Do_While Add_Min_Weight Add_Max_Scaled))) Replace_Max_Weight)
+
+Individual Number: i5|
+Evaluated: F
+Fitness: f1015562711|0.016632957|i3|
+Tree 0:
+ (Progn2 (Do_While (Or Add_Max_Scaled Add_Min_Weight) (If_Then (Equal (Or Add_Max_Freville_Plateau Add_Max_Freville_Plateau) (And Add_Max_Generalized (And Add_Max_Scaled (Or Add_Max_Freville_Plateau Add_Max_Freville_Plateau)))) Add_Max_Scaled)) Replace_Max_Weight)
+
+Individual Number: i6|
+Evaluated: F
+Fitness: f1015640838|0.01677848|i2|
+Tree 0:
+ (Progn2 (Do_While (Or Add_Max_Normalized (Or Add_Min_Weight Add_Max_Generalized)) (If_Then_Else (And Add_Max_Senju_Toyoda (And Add_Max_Normalized Add_Max_Scaled)) (If_Then Add_Max_Senju_Toyoda Add_Max_Generalized) (Do_While Add_Max_Scaled Add_Max_Freville_Plateau))) Replace_Max_Weight)
+
+Individual Number: i7|
+Evaluated: F
+Fitness: f1015658761|0.016811864|i3|
+Tree 0:
+ (Progn2 (Do_While (Or Add_Max_Senju_Toyoda Del_Min_Normalized) (If_Then_Else (And (Equal (Or Add_Max_Senju_Toyoda Add_Max_Profit) Add_Min_Weight) Add_Min_Weight) (Do_While Add_Max_Scaled Add_Max_Freville_Plateau) Add_Min_Weight)) Replace_Max_Weight)
+
+Individual Number: i8|
+Evaluated: F
+Fitness: f1015658761|0.016811864|i3|
+Tree 0:
+ (Progn2 (Do_While (Or Add_Max_Profit Del_Min_Scaled) (If_Then_Else (Equal Add_Max_Senju_Toyoda (Equal Add_Max_Profit Add_Min_Weight)) (If_Then (And Add_Min_Weight Add_Max_Scaled) (Do_While Add_Max_Scaled Add_Max_Normalized)) Add_Max_Scaled)) Replace_Max_Weight)
+
+Individual Number: i9|
+Evaluated: F
+Fitness: f1015798930|0.01707295|i3|
+Tree 0:
+ (Progn2 (Do_While (Or Add_Max_Senju_Toyoda (Or Add_Max_Senju_Toyoda Del_Min_Normalized)) (If_Then_Else Add_Min_Weight (If_Then_Else Add_Min_Weight (Do_While Add_Max_Freville_Plateau Add_Max_Scaled) Add_Max_Scaled) Add_Max_Scaled)) Replace_Max_Weight)
+
+Individual Number: i10|
+Evaluated: F
+Fitness: f1015798930|0.01707295|i3|
+Tree 0:
+ (Progn2 (Do_While (Or (Or Add_Max_Freville_Plateau Add_Max_Senju_Toyoda) Del_Min_Normalized) (If_Then (And Add_Min_Weight Add_Min_Weight) (Do_While Add_Max_Scaled Add_Max_Freville_Plateau))) Replace_Max_Weight)
+
+Individual Number: i11|
+Evaluated: F
+Fitness: f1015849202|0.017166588|i2|
+Tree 0:
+ (Progn2 (Do_While Add_Min_Weight (If_Then_Else Add_Min_Weight (Do_While (And Add_Max_Senju_Toyoda Add_Max_Scaled) (If_Then_Else Del_Min_Scaled Add_Max_Scaled Add_Max_Generalized)) (Do_While Add_Max_Normalized Add_Max_Freville_Plateau))) Replace_Max_Weight)
+
+Individual Number: i12|
+Evaluated: F
+Fitness: f1015973641|0.017398374|i2|
+Tree 0:
+ (Progn2 (Do_While (Equal Add_Max_Profit Add_Max_Senju_Toyoda) (If_Then (Equal Add_Min_Weight Add_Max_Scaled) (If_Then (Or Add_Min_Weight (Equal Add_Min_Weight Add_Max_Scaled)) (Do_While Add_Max_Freville_Plateau Add_Max_Scaled)))) Replace_Max_Weight)
+
+Individual Number: i13|
+Evaluated: F
+Fitness: f1016026518|0.017496865|i2|
+Tree 0:
+ (Progn2 (Do_While Add_Min_Weight (If_Then_Else Del_Min_Scaled (Do_While (Equal Add_Max_Senju_Toyoda Add_Min_Weight) (If_Then_Else Add_Min_Weight (Do_While Add_Max_Scaled Add_Max_Freville_Plateau) Del_Min_Scaled)) Del_Min_Scaled)) Replace_Max_Weight)
+
+Individual Number: i14|
+Evaluated: F
+Fitness: f1016056327|0.017552389|i2|
+Tree 0:
+ (Progn2 (Do_While Add_Min_Weight (If_Then Add_Max_Normalized (Do_While Add_Min_Weight (If_Then Add_Max_Normalized (If_Then_Else (Not Del_Min_Scaled) Del_Min_Scaled (Do_While Add_Max_Freville_Plateau (If_Then_Else Add_Max_Scaled Add_Max_Scaled Add_Max_Generalized))))))) Replace_Max_Weight)
+
+Individual Number: i15|
+Evaluated: F
+Fitness: f1016056327|0.017552389|i2|
+Tree 0:
+ (Progn2 (Do_While Add_Min_Weight (If_Then_Else (And (Equal Add_Min_Weight Add_Max_Normalized) (And Add_Max_Senju_Toyoda Del_Min_Profit)) (Do_While (And Add_Max_Normalized Add_Max_Scaled) Add_Max_Scaled) Add_Max_Senju_Toyoda)) Replace_Max_Weight)
+
+Individual Number: i16|
+Evaluated: F
+Fitness: f1016056327|0.017552389|i2|
+Tree 0:
+ (Progn2 (Do_While (Or (Or (Equal Add_Max_Profit Add_Min_Weight) (Equal Del_Min_Normalized Add_Max_Freville_Plateau)) Add_Min_Weight) (If_Then Add_Max_Profit (Do_While Add_Max_Normalized (If_Then Add_Max_Scaled Add_Max_Scaled)))) Replace_Max_Weight)
+
+Individual Number: i17|
+Evaluated: F
+Fitness: f1016097282|0.017628673|i2|
+Tree 0:
+ (Progn2 (Do_While Add_Min_Weight (If_Then_Else (And Add_Max_Scaled Add_Max_Scaled) (If_Then_Else Add_Max_Normalized Del_Min_Profit Add_Min_Weight) Add_Max_Senju_Toyoda)) Replace_Max_Weight)
+
+Individual Number: i18|
+Evaluated: F
+Fitness: f1016099619|0.017633026|i2|
+Tree 0:
+ (Progn2 (Do_While Add_Min_Weight (If_Then (And Add_Max_Scaled Add_Max_Normalized) (Do_While (Or Add_Max_Normalized (Equal Add_Max_Profit Add_Min_Weight)) (If_Then Add_Max_Scaled Add_Max_Scaled)))) Replace_Max_Weight)
+
+Individual Number: i19|
+Evaluated: F
+Fitness: f1016150355|0.01772753|i3|
+Tree 0:
+ (Progn2 (If_Then_Else Add_Max_Profit (Do_While Add_Min_Weight (If_Then Add_Max_Scaled (Do_While Add_Min_Weight (If_Then (Or Add_Max_Scaled (Equal Add_Max_Scaled Add_Max_Scaled)) (If_Then Del_Min_Scaled Add_Max_Senju_Toyoda))))) Add_Min_Weight) Replace_Max_Weight)
+

@@ -1,0 +1,64 @@
+parent.0 = koza.params
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+
+gp.fs.0.name = f0
+
+#Terminals
+gp.fs.0.size = 18
+gp.fs.0.func.0 = terminals.AddMaxProfit
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1 = terminals.AddMaxScaled
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = terminals.AddMaxNormalized
+gp.fs.0.func.2.nc = nc0
+gp.fs.0.func.3 = terminals.AddMinWeight
+gp.fs.0.func.3.nc = nc0
+gp.fs.0.func.4 = terminals.AddMaxGeneralized
+gp.fs.0.func.4.nc = nc0
+gp.fs.0.func.5 = terminals.AddMaxFrevillePlateau
+gp.fs.0.func.5.nc = nc0
+gp.fs.0.func.6 = terminals.AddMaxSenjuToyoda
+gp.fs.0.func.6.nc = nc0
+gp.fs.0.func.7 = terminals.DelMinProfit
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = terminals.DelMaxWeight
+gp.fs.0.func.8.nc = nc0
+gp.fs.0.func.9 = terminals.DelMinScaled
+gp.fs.0.func.9.nc = nc0
+gp.fs.0.func.10 = terminals.DelMinNormalized
+gp.fs.0.func.10.nc = nc0
+
+#Functions
+gp.fs.0.func.11 = functions.IfThenElse
+gp.fs.0.func.11.nc = nc7
+gp.fs.0.func.12 = functions.IfThen
+gp.fs.0.func.12.nc = nc3
+gp.fs.0.func.13 = functions.DoWhile
+gp.fs.0.func.13.nc = nc6
+gp.fs.0.func.14 = functions.Not
+gp.fs.0.func.14.nc = nc1
+gp.fs.0.func.15 = functions.And
+gp.fs.0.func.15.nc = nc2
+gp.fs.0.func.16 = functions.Or
+gp.fs.0.func.16.nc = nc2
+gp.fs.0.func.17 = functions.Equal
+gp.fs.0.func.17.nc = nc2
+
+#Recycle Bin
+#gp.fs.0.func.15 = functions.Repeat
+#gp.fs.0.func.15.nc = nc4
+#gp.fs.0.func.16 = functions.Progn2
+#gp.fs.0.func.16.nc = nc5
+#gp.fs.0.func.18 = terminals.AddFirstFit
+#gp.fs.0.func.18.nc = nc0
+#gp.fs.0.func.19 = terminals.AddMaxWeight
+#gp.fs.0.func.19.nc = nc0
+#gp.fs.0.func.20 = terminals.IsFull
+#gp.fs.0.func.20.nc = nc0
+
+eval.problem = model.MKProblem
+#	Reevaluate individuals even if their evaluated flag has been set
+eval.problem.reevaluate = true
+eval.problem.data = model.MKPData
