@@ -235,4 +235,4 @@ gp.nc.7.returns = nil
 gp.nc.7.size = 3
 gp.nc.7.child.0 = boolean-or-term
 gp.nc.7.child.1 = nil-or-loop-or-term
-gp.nc.7.child.2 = nil-or-loop-or-termerm
+gp.nc.7.child.2 = nil-or-loop-or-term
